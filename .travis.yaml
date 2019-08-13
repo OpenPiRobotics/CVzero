@@ -1,0 +1,13 @@
+language: python
+python:
+  - "3.5"
+install:
+  # Install test dependencies
+  - pip install .[test]
+  # Check everything was correctly installed
+  - pip freeze
+
+script:
+  # Run syntax checker on main code
+  - pycodestyle Library
+  - pycodestyle App

@@ -12,8 +12,8 @@ rawCap = picamera.array.PiRGBArray(camera, size=(640, 480))
 # Wait for camera to warm-up
 time.sleep(0.1)
 
-# Setup CVzero tracker
-tracker = CVzero.Tracker()
+# Setup cvzero tracker
+tracker = cvzero.Tracker()
 tracker.mode = "tracker"
 tracker.min_rgb = np.array([105,50,50])
 tracker.max_rgb = np.array([130,255,255])
@@ -24,7 +24,7 @@ frames = 0
 t = time.time()
 
 for frame in camera.capture_continuous(rawCap, format="bgr", use_video_port=True):
-    # Track objects using CVzero tracker
+    # Track objects using cvzero tracker
     im2, objects_detected = tracker.new_image(frame.array)
     # Calculate and print FPS
     # print("FPS:", frames/(time.time() - t))

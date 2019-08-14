@@ -54,8 +54,8 @@ class Tracker:
                 cv2.putText(im2, str(obj_id), (int(x + w/2), int(y + h/2)), font, 0.5, (0, 0, 255), 1, cv2.LINE_AA)
                 # Add object and it's parameters to "objects" dict
                 self.objects[obj_id] = [x, y, w, h]
-                flag = True
-        if flag:
+                valid_objects = True
+        if valid_objects:
             # return image with overlay if valid objects detected
             return im2, self.objects
         # return input image (no valid objects detected)

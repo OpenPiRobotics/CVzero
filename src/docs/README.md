@@ -15,7 +15,7 @@ using the same virtual environment used to build the library:
 
 Docs are built and deployed to github pages. This uses a special branch 'gh-pages' of the main repository to hold 
 compiled HTML generated from Sphinx. To set this up you need to create a checkout of this branch in parallel with the
-main repository. From the root of the approxeng.input git checkout:
+main repository. From the root of the CVzero git checkout:
 
 ```
 > cd ..

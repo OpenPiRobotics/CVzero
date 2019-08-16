@@ -1,7 +1,7 @@
 __author__ = 'tom'
-from setuptools import setup
+from setuptools import setup, find_packages
 
-required_packages = ['']
+required_packages = ['opencv-python', 'opencv-contrib-python']
 extras_rel = ['bump2version', 'twine']
 extras_doc = ['sphinx', 'sphinx_rtd_theme']
 extras_test = ['nose', 'coverage', 'pycodestyle']
@@ -19,7 +19,8 @@ setup(
     author='EDIT ME',
     author_email='EDIT ME',
     license='ASL2.0',
-    packages=['src/python'],
+    package_dir={'':'src/python'},
+    packages=find_packages(),
     install_requires=required_packages,
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,

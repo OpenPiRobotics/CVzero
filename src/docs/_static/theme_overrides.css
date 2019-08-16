@@ -1,6 +1,7 @@
 .wy-nav-content {
     max-width: 1000px;
 }
-td.linenos > div.linenodiv > pre {
-    line-height: 1.2;
+
+.highlight {
+    background: #f7f9ff;
 }

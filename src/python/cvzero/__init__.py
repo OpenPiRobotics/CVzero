@@ -25,7 +25,7 @@ class Tracker:
         elif self.mode == 'tracker':
             return self._get_block(image)
 
-    def _learn_block(image):
+    def _learn_block(self, image):
         pass
 
     def _get_block(self, image):
@@ -47,7 +47,7 @@ class Tracker:
         for obj_id, contour in enumerate(contours):
             # Filter by area of contour
             area = cv2.contourArea(contour)
-            if (area > 300):
+            if area > 300:
                 x, y, w, h = cv2.boundingRect(contour)
                 # Draw bounding box
                 im2 = cv2.rectangle(image, (x, y), (x + w, y + h), (255, 0, 0), 3)

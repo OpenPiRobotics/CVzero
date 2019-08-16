@@ -1,12 +1,11 @@
 __author__ = 'tom'
-from setuptools import setup
+from setuptools import setup, find_packages
 
-required_packages = ['']
+required_packages = ['opencv-python', 'opencv-contrib-python']
 extras_rel = ['bump2version', 'twine']
 extras_doc = ['sphinx', 'sphinx_rtd_theme']
 extras_test = ['nose', 'coverage', 'pycodestyle']
 extras_dev = extras_rel + extras_doc + extras_test
-
 
 # To build for local development use 'python setup.py develop'.
 # To upload a version to pypi use 'python setup.py clean sdist upload'.
@@ -20,7 +19,8 @@ setup(
     author='EDIT ME',
     author_email='EDIT ME',
     license='ASL2.0',
-    packages=['App', 'Library'],
+    package_dir={'':'src/python'},
+    packages=find_packages(),
     install_requires=required_packages,
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,

@@ -7,7 +7,6 @@ extras_doc = ['sphinx', 'sphinx_rtd_theme']
 extras_test = ['nose', 'coverage', 'pycodestyle']
 extras_dev = extras_rel + extras_doc + extras_test
 
-
 # To build for local development use 'python setup.py develop'.
 # To upload a version to pypi use 'python setup.py clean sdist upload'.
 # Docs are built with 'make html' in the docs directory parallel to this one
@@ -20,7 +19,7 @@ setup(
     author='EDIT ME',
     author_email='EDIT ME',
     license='ASL2.0',
-    packages=['App', 'Library'],
+    packages=['src/python'],
     install_requires=required_packages,
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,

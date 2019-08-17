@@ -1,7 +1,7 @@
 # General information about the project.
 project = u'CVzero'
-copyright = u'EDIT ME'
-author = u'EDIT ME'
+copyright = u'mit'
+author = u'CVzero Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the

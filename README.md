@@ -1,6 +1,6 @@
 
 # CVzero
-## Making computer vision simple for everyone!
+### Making computer vision simple for everyone!
 
 CVzero is a Python 3 library that aims to simplify computer vision for the Raspberry Pi* robotics.
 As well as the library, a companion App for the Raspberry Pi is being developed for selecting an object and displaying its colour signature. It will be possible to save the colour signatures collected as a file for the library to use.
@@ -13,6 +13,17 @@ We have a Discord channel for chat and collaboration, https://discord.gg/Vbdyjdn
 
 *The library may be able to be used with other platforms but has not been tested or guaranteed to work.
 
+## Suggested hardware
+
+### Raspberry Pi
+
+Raspberry Pi 3 A, B and B+
+Raspberry Pi 4 B
+
+### Camera
+
+Offical Raspberry Pi camera, v1 v2
+linux support Webcamera
 
 ## How to help
 

@@ -22,13 +22,13 @@ Raspberry Pi 4 B
 
 ### Camera
 
-Offical Raspberry Pi camera, v1 v2
-linux support Webcamera
+Offical Raspberry Pi camera, v1 or v2
+linux support Webcams
 
 ## How to help
 
 Join us on our discord channel, download and test the libray and example code.
-If you wish to sbumit code please make a pull request.
+If you wish to submit code please make a pull request.
 
 
 ## Building

@@ -15,7 +15,7 @@ We have a Discord channel for chat and collaboration, https://discord.gg/Vbdyjdn
 
 *The library may be able to be used with other platforms but has not been tested or guaranteed to work.
 
-## Suggested hardware
+## Recommended hardware
 
 ### Raspberry Pi
 
@@ -26,6 +26,10 @@ Raspberry Pi 4 B
 
 Offical Raspberry Pi camera, v1 or v2
 linux support Webcams
+
+## Design document 
+
+https://docs.google.com/document/d/1-CuN453Kmf-dKiIAXQaXqBjWy_byByh1wRkkukcPAqQ/edit?usp=sharing
 
 ## How to help
 
